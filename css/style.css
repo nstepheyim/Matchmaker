@@ -138,16 +138,15 @@ main div section {
 }
 
 section.awesome {
-     float: left;
-     width: 30%;
+     width: 100%;
      padding: 2%;
      margin: 1%;
 }
 
 
 p {
-     font-size: 1em;
-     margin-top: 2%;
+     font-size: 1.5em;
+     margin: 2%;
 }
 
 footer p {
@@ -164,7 +163,7 @@ button {
      font-size: 1.5em;
      padding: 2%;
      margin-top: 5%;
-     margin-left: 5%;
+     margin-left: 10%;
      box-shadow:0px 3px 2px #888888;
      border-radius: 5px;
      text-align: center;
@@ -199,6 +198,16 @@ li a {
      text-decoration: none;
 }
 
+section.awesome {
+     float: left;
+     width: 30%;
+     padding: 2%;
+     margin: 1%;
+}
+
+
+
+
 footer {
      clear: both;
 }
@@ -207,13 +216,6 @@ header img {
      display: none;
 }
 
-
-
-aside section {
-     padding: 2%;
-     width: 33.333%;
-     float: left;
-}
 
 /***** desktop 1024 *****/
 
