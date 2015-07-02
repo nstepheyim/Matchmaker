@@ -47,9 +47,6 @@ Date: 6/25/2015
      padding: 3% 10%;
 }
 
-div {
-     position
-}
 
 /******************************************
 /* BASE STYLES                   
@@ -76,18 +73,21 @@ header {
 }
 
 main {
-     background-image: url("../images/coworking.jpg");
-     background-size: auto;
+  
+}
+
+div {
+  background-image: url("../images/coworking.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 663px;
+  max-height: 100%;
 }
 
 /*nav {
      display: none;
 }*/
 
-aside {
-     margin: 3%;
-
-}
 /***** mobile content *****/
 
 h1 {
@@ -127,11 +127,7 @@ h3 {
 
 }
 
-aside section {
-     display: block;
-}
-
-main section {
+main div section {
      float: right;
      background-color: #D3D3D3;
      opacity: 0.8;
@@ -140,6 +136,14 @@ main section {
      margin: 2%;
      border: 1px inset black;
 }
+
+section.awesome {
+     float: left;
+     width: 30%;
+     padding: 2%;
+     margin: 1%;
+}
+
 
 p {
      font-size: 1em;
@@ -177,12 +181,14 @@ body {
 
 nav {
      display: block;
+     margin-left: 15%;
 }
 
 a {
      display: block;
-     padding: 2%;
+     padding: 1%;
      color: white;
+     font-size: 1.5em;
      text-decoration: none;
 }
 
@@ -197,6 +203,10 @@ footer {
      clear: both;
 }
 
+header img {
+     display: none;
+}
+
 
 
 aside section {
@@ -209,6 +219,9 @@ aside section {
 
 @media only screen and (min-width: 1024px) {
 
+header img {
+     display: none;
+}
 }
 **/
 
